@@ -15,6 +15,3 @@ numeric vector
 \description{
 A quadratic function
 }
-\examples{
-my quad(x=1:10)
-}

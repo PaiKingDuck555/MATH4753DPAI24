@@ -2,7 +2,7 @@
 #'
 #' @param x a numeric vector
 #'
-#' @return a numeric vector
+#' @return numeric vector
 #' @export
 #'
 #' @examples

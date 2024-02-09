@@ -1,4 +1,3 @@
-#ddt <- read.csv(file.choose())
 #' A quadratic function
 #'
 #' @param x a numeric vector
