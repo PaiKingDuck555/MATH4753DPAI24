@@ -2,7 +2,7 @@
 % Please edit documentation in R/myplot.R
 \name{myplot}
 \alias{myplot}
-\title{Title}
+\title{'just a random plot function that is specific to lab 4'}
 \usage{
 myplot(x)
 }
@@ -10,8 +10,8 @@ myplot(x)
 \item{x}{a numeric vector}
 }
 \value{
-a numeric vector
+numeric vector
 }
 \description{
-Title
+'just a random plot function that is specific to lab 4'
 }
