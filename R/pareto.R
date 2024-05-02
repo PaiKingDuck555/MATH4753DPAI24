@@ -1,13 +1,14 @@
 #' Title
 #'
-#' @param x
-#' @param mn
-#' @param ...
+#' @param x This is a fake description
+#' @param mn This is a fake description
+#' @param ... This is a fake description
 #'
 #' @return barplot with segments
 #' @export
 #'
 #' @examples
+#' @importFrom graphics barplot axis segments title
 pareto <- function(x, mn = "Pareto barplot",...) {  # x is a vector
   x.tab = table(x)
   xx.tab = sort(x.tab, decreasing = TRUE, index.return = FALSE)

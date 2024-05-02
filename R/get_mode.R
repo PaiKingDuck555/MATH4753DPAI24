@@ -1,8 +1,8 @@
 #' Title
 #'
-#' @param v
+#' @param v fakkke stuff
 #'
-#' @return
+#' @return more stufff
 #' @export
 #'
 #' @examples

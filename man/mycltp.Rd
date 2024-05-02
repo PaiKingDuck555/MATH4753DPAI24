@@ -7,7 +7,13 @@
 mycltp(n, iter, lambda = 10, ...)
 }
 \arguments{
-\item{...}{}
+\item{n}{this is also just a fake description}
+
+\item{iter}{this is also just a fake description}
+
+\item{lambda}{this is also just a fake description}
+
+\item{...}{This is a fake description}
 }
 \description{
 Title

@@ -7,7 +7,10 @@
 get_mode(v)
 }
 \arguments{
-\item{v}{}
+\item{v}{fakkke stuff}
+}
+\value{
+more stufff
 }
 \description{
 Title

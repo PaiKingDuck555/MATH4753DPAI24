@@ -7,7 +7,14 @@
 mybin(iter = 100, n = 10, p = 0.5)
 }
 \arguments{
-\item{p}{}
+\item{iter}{this is also just a fake description}
+
+\item{n}{this is where we enter the number of values}
+
+\item{p}{this is also just a fake description}
+}
+\value{
+A straigh barplot
 }
 \description{
 mybin

@@ -1,21 +1,26 @@
 #' Title
 #'
-#' @param n
-#' @param iter
-#' @param lambda
-#' @param ...
+#' @param n this is also just a fake description
+#' @param iter this is also just a fake description
+#' @param lambda this is also just a fake description
+#' @param ... This is a fake description
 #'
 #' @return
 #' @export
 #'
 #' @examples
+#' @importFrom stats rpois apply dnorm dpois
+#' @importFrom graphics hist layout curve barplot plot
+#' @importFrom grDevices rainbow
+
+
 mycltp=function(n,iter,lambda=10,...){
 
   ## r-random sample from the Poisson
   y=rpois(n*iter,lambda=lambda)
   ## Place these numbers into a matrix
   ## The columns will correspond to the iteration and the rows will equal the sample size n
-  data=matrix(y,nr=n,nc=iter,byrow=TRUE)
+  data=matrix(y,nrow =n,ncol =iter,byrow=TRUE)
   ## apply the function mean to the columns (2) of the matrix
   ## these are placed in a vector w
   w=apply(data,2,mean)
@@ -30,7 +35,7 @@ mycltp=function(n,iter,lambda=10,...){
   ymax=1.1*ymax
 
   ## Make a suitable layout for graphing
-  layout(matrix(c(1,1,2,3),nr=2,nc=2, byrow=TRUE))
+  layout(matrix(c(1,1,2,3),nrow =2,ncol =2, byrow=TRUE))
 
   ## Now we can make the histogram
   hist(w,freq=FALSE,  ylim=c(0,ymax), col=rainbow(max(w)),

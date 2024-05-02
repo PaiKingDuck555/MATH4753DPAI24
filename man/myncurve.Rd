@@ -7,7 +7,11 @@
 myncurve(mu, sigma, a)
 }
 \arguments{
-\item{sigma}{}
+\item{mu}{this is also just a fake description}
+
+\item{sigma}{this is also just a fake description}
+
+\item{a}{this is also just a fake description}
 }
 \value{
 graph with a curve

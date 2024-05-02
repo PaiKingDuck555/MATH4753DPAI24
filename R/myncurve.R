@@ -1,12 +1,17 @@
 #' Title
 #'
-#' @param mu
-#' @param sigma
+#' @param mu this is also just a fake description
+#' @param sigma this is also just a fake description
+#' @param a this is also just a fake description
 #'
 #' @return graph with a curve
 #' @export
 #'
 #' @examples
+#' @importFrom stats dnorm pnorm
+#' @importFrom graphics curve polygon
+
+
 myncurve = function(mu, sigma,a){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu +
                                               3*sigma))

@@ -7,7 +7,11 @@
 pareto(x, mn = "Pareto barplot", ...)
 }
 \arguments{
-\item{...}{}
+\item{x}{This is a fake description}
+
+\item{mn}{This is a fake description}
+
+\item{...}{This is a fake description}
 }
 \value{
 barplot with segments
